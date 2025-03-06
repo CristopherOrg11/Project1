@@ -13,7 +13,7 @@ body{
 	overflow: hidden;
 	backdrop-filter: blur(5px);
 	align-items: center;
-    justify-content: center;
+	justify-content: center;
 }
 .container {
     background: rgba(255, 192, 203, 0.8);
