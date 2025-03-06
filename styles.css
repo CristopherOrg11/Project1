@@ -84,8 +84,19 @@ p {
     background: #b0356e;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
     .container {
-        width: 90%;
+        width: 100%;
+		padding: 0 20px;
+		flex-direction: column;
     }
+	
+	.wrapper{
+		min-height: 100vh;
+	}
+	
+	.form-box{
+		width: 100%;
+		height: 500px;
+	}
 }
