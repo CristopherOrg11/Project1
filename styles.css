@@ -32,6 +32,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.top span{
+	font-size: small;
+	padding: 10px 0;
+	display: flex;
+	justify-content: center;
+}
 
 h1 {
     color: #d14784;
