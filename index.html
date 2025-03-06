@@ -11,17 +11,24 @@
         <h1>Be Apart of our Book Club!</h1>
         <p>Sign up today to be appart of this amazing club</p>
         <form id="signup-form">
-            <input type="email" id="email" placeholder="Enter your email">
-            <button type="submit">Sign Up</button>
-        </form>
-        <p class="success-message" id="success-message">Thank you for signing up!</p>
+		<div class="register-container" id="register">
+		<div class="top">
+            <div class="two-forms">
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Firstname">
+                    <i class="bx bx-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Lastname">
+                    <i class="bx bx-user"></i>
+                </div>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Email">
+                <i class="bx bx-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="submit" class="submit" value="Register">
     </div>
-
-    <script>
-        document.getElementById('signup-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            document.getElementById('success-message').style.display = 'block';
-        });
-    </script>
 </body>
 </html>
