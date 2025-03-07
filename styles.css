@@ -70,12 +70,12 @@ p {
 }
 
 .submit {
-    width: 100%;
+    width: 150%;
     padding: 10px;
     background: #d14784;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     font-size: 18px;
     cursor: pointer;
     transition: 0.3s;
