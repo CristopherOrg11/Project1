@@ -59,6 +59,13 @@ h1 {
     margin-bottom: 10px;
 }
 
+h2 {
+    color: #d14784;
+    font-weight: 600;
+    margin-bottom: 10px;
+	font-size: 35px;
+}
+
 p {
     color: #ffff;
     font-size: 14px;
