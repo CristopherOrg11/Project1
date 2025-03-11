@@ -5,7 +5,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+H1, p {
+	font-family: "Sour Gummy", sans-serif;
+	weight: 700px;
+}
 H2, p2, li {
 	font-family: "Borel", cursive;
 	weight: 500px;
