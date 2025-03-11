@@ -9,10 +9,10 @@ body{
 	background-image: url("media/pink.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	backdrop-filter: blur(5px);
-	align-items: center;
-	justify-content: center;
+	min-height: 100vh;
+	display: block;
 }
 .container {
     background: rgba(255, 192, 203, 0.8);
@@ -27,7 +27,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-	position: absolute;
+	position: relative;
 	left: 50%;
 	transform: translate(-50%, 50%);
 }
