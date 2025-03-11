@@ -6,11 +6,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.dancing-script {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
+H2, p2, li {
+	font-family: "Dancing Script", cursive;
 }
 
 body{
