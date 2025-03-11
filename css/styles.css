@@ -5,15 +5,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-H1, p {
+H1,H2, p, p2,li {
 	font-family: "Sour Gummy", sans-serif;
 	weight: 700px;
 }
-H2, p2, li {
-	font-family: "Borel", cursive;
-	weight: 500px;
-}
-
 body{
 	background-image: url("media/pink.jpg");
 	background-size: cover;
@@ -77,6 +72,18 @@ h2 {
 
 p {
     color: #ffff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+p2 {
+    color: #ffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+li{
+	 color: #ffff;
     font-size: 14px;
     margin-bottom: 20px;
 }
