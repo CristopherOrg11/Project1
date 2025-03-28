@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
 }
 H1,H2, p, p2,li {
 	font-family: "Sour Gummy", sans-serif;
@@ -76,12 +76,6 @@ p {
     margin-bottom: 20px;
 }
 
-p2 {
-    color: #ffff;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
 li{
 	 color: #d14784;
 
@@ -125,17 +119,39 @@ li{
 
 @media (max-width: 540px) {
     .container {
-        width: 100%;
+        max-width: 500xp;
 		padding: 0 20px;
 		flex-direction: column;
+		transform: translate(-50%, 10%)
     }
 	
 	.wrapper{
+		max-width: 700px;
 		min-height: 100vh;
+		translate: translate(0%, 15%)
 	}
 	
 	.form-box{
 		width: 100%;
 		height: 500px;
 	}
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width: 600px;
+        transform: translate(-50%, 5%);
+    }
+
+    .info-container {
+        max-width: 800px;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
