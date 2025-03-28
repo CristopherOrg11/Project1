@@ -128,7 +128,7 @@ li{
 	.wrapper{
 		max-width: 700px;
 		min-height: 100vh;
-		translate: translate(0%, 15%);
+		transform: translate(0%, 15%);
 	}
 	
 	.form-box{
