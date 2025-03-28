@@ -7,7 +7,7 @@
 }
 H1,H2, p, p2,li {
 	font-family: "Sour Gummy", sans-serif;
-	weight: 700px;
+	font-weight: 700;
 }
 body{
 	background-image: url("media/pink.jpg");
@@ -119,16 +119,16 @@ li{
 
 @media (max-width: 540px) {
     .container {
-        max-width: 500xp;
+        max-width: 500px;
 		padding: 0 20px;
 		flex-direction: column;
-		transform: translate(-50%, 10%)
+		transform: translate(-50%, 10%);
     }
 	
 	.wrapper{
 		max-width: 700px;
 		min-height: 100vh;
-		translate: translate(0%, 15%)
+		translate: translate(0%, 15%);
 	}
 	
 	.form-box{
